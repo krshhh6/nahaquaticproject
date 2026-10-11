@@ -1,13 +1,17 @@
 {
-  "name": "sih-26143-oil-spill",
+  "name": "nahaquatic",
   "version": "1.0.0",
   "private": true,
-  "description": "Spill Sense — Maritime Intelligence C2 Platform (SIH26143)",
+  "description": "NahAquatic — Maritime Intelligence C2 Platform",
+  "workspaces": [
+    "frontend"
+  ],
   "scripts": {
     "dev": "npm --prefix frontend run dev",
-    "build": "npm --prefix frontend run build",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
     "lint": "npm --prefix frontend run lint",
     "preview": "npm --prefix frontend run preview",
-    "test": "npm --prefix frontend run test"
+    "test": "npm --prefix frontend run test",
+    "deploy": "npx wrangler deploy"
   }
 }

@@ -37,13 +37,27 @@ function onnxWasmPlugin(): Plugin {
         const files = fs.readdirSync(srcDir);
         for (const file of files) {
           if (file.endsWith('.wasm') || file.endsWith('.mjs') || (file.endsWith('.js') && !file.endsWith('.map'))) {
+            const srcPath = path.join(srcDir, file);
+            if (fs.statSync(srcPath).size > 20 * 1024 * 1024) continue;
             const destFile = path.join(destDir, file);
             if (!fs.existsSync(destFile)) {
-              fs.copyFileSync(path.join(srcDir, file), destFile);
+              fs.copyFileSync(srcPath, destFile);
             }
           }
         }
         console.log('[onnxWasmPlugin] Copied onnxruntime-web dist files to dist/onnx-dist');
+      }
+
+      // Purge any bundled asset files > 20MB to comply with Cloudflare 25 MiB asset limit
+      const assetsDir = path.resolve(__dirname, 'dist/assets');
+      if (fs.existsSync(assetsDir)) {
+        for (const f of fs.readdirSync(assetsDir)) {
+          const p = path.join(assetsDir, f);
+          if (fs.existsSync(p) && fs.statSync(p).size > 20 * 1024 * 1024) {
+            fs.unlinkSync(p);
+            console.log(`[onnxWasmPlugin] Removed oversized asset: ${f}`);
+          }
+        }
       }
     },
   };
