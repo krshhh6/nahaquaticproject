@@ -1,5 +1,5 @@
 /**
- * Spill Sense (SIH-26143) — Real-Time SAR Spill Analytics & MARPOL Engine
+ * NahAquatic (SIH-26143) — Real-Time SAR Spill Analytics & MARPOL Engine
  * Calculates physical, statutory (MARPOL 73/78), and Bonn Agreement analytics
  * dynamically on the basis of uploaded SAR imagery and neural network inference.
  */

@@ -1,5 +1,5 @@
 /**
- * Spill Sense (SIH-26143) — Real-Time Met-Ocean Physics & Drift Engine
+ * NahAquatic (SIH-26143) — Real-Time Met-Ocean Physics & Drift Engine
  * Actively integrates with:
  * 1. Open-Meteo Marine API (CMEMS / Mercator Ocean Global Analysis & Forecast)
  *    - Real-time ocean current velocity (m/s) & direction (deg)

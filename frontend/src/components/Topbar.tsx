@@ -190,9 +190,9 @@ export const Topbar: React.FC<TopbarProps> = ({
           title="Return to Main Dashboard"
         >
           <div className="topbar-logo" style={{ padding: 0, gap: '12px', cursor: onSelectTab ? 'pointer' : 'default' }}>
-            <img src="/clean_raw_logo.png" alt="Spill Sense Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
+            <img src="/clean_raw_logo.png" alt="NahAquatic Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
             <div>
-              <div className="logo-name">SPILL SENSE</div>
+              <div className="logo-name">NAHAQUATIC</div>
               <div className="logo-sub">MARITIME C2 INTELLIGENCE</div>
             </div>
           </div>
@@ -275,9 +275,9 @@ export const Topbar: React.FC<TopbarProps> = ({
     <header className="topbar">
       {/* BRAND LOGO */}
       <div className="topbar-logo" style={{ padding: 0, gap: '12px' }}>
-        <img src="/clean_raw_logo.png" alt="Spill Sense Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
+        <img src="/clean_raw_logo.png" alt="NahAquatic Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
         <div>
-          <div className="logo-name">SPILL SENSE</div>
+          <div className="logo-name">NAHAQUATIC</div>
           <div className="logo-sub">MARITIME C2 INTELLIGENCE</div>
         </div>
       </div>

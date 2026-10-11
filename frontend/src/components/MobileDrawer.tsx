@@ -86,7 +86,7 @@ export const MobileDrawer: React.FC<MobileDrawerProps> = ({
         <div className="mobile-drawer-header">
           <div className="mobile-drawer-title">
             <span className="material-symbols-rounded text-cyan-400">shield</span>
-            <span>SpillSense C2 Hub</span>
+            <span>NAHAQUATIC C2 Hub</span>
           </div>
           <button
             type="button"

@@ -884,7 +884,7 @@ export const AnalyticsView: React.FC<AnalyticsViewProps> = ({ incidents, onOpenL
                   High-Priority Maritime Emergency Protocol
                 </div>
                 <p style={{ fontSize: 10.5, color: 'var(--text-muted)', lineHeight: 1.5, margin: 0 }}>
-                  SpillSense processes Copernicus Sentinel-1 Level-1 GRDH scenes through a parallelized pipeline. Downlink-to-Dossier total latency averages <strong>11.78 minutes</strong>, meeting the Indian Coast Guard emergency operational turnaround requirement of 15 minutes.
+                  NahAquatic processes Copernicus Sentinel-1 Level-1 GRDH scenes through a parallelized pipeline. Downlink-to-Dossier total latency averages <strong>11.78 minutes</strong>, meeting the Indian Coast Guard emergency operational turnaround requirement of 15 minutes.
                 </p>
               </div>
             </div>

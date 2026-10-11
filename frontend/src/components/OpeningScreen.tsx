@@ -64,7 +64,7 @@ export const OpeningScreen: React.FC<OpeningScreenProps> = ({
       {/* 16:9 Stage Container */}
       <div className="relative w-full h-full max-w-[1920px] max-h-[1080px] aspect-video flex flex-col items-center justify-center overflow-hidden">
         
-        {/* Layer 1 (z-10): Spill Sense Text - 80% Visible, positioned behind the globe */}
+        {/* Layer 1 (z-10): NAHAQUATIC Text - 80% Visible, positioned behind the globe */}
         <div
           className="absolute left-1/2 z-10 flex items-center justify-center select-none"
           style={{
@@ -84,7 +84,7 @@ export const OpeningScreen: React.FC<OpeningScreenProps> = ({
               fontSize: 'clamp(3.5rem, 8.2vw, 8.5rem)',
             }}
           >
-            Spill Sense
+            NAHAQUATIC
           </span>
         </div>
 

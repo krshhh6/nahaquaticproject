@@ -20,6 +20,7 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "recharts": "^3.10.1",
+    "sih-26143-oil-spill": "file:..",
     "socket.io-client": "^4.8.1",
     "tailwind-merge": "^3.7.0"
   },

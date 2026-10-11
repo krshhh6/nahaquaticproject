@@ -147,7 +147,7 @@ export const ForensicModal: React.FC<ForensicModalProps> = ({ isOpen, onClose, s
               <span className="chip chip-ok" style={{ fontSize: 9.5, padding: '2px 8px' }}>SEALED &amp; VERIFIED</span>
             </div>
             <p style={{ fontSize: 10, color: 'var(--text-secondary)', lineHeight: 1.5, margin: 0 }}>
-              I hereby certify that the electronic records contained in this dossier were produced by the automated computer surveillance system <strong>SpillSense Maritime C2</strong> during the course of regular operational activity. The computer systems and cryptographic hardware security modules (HSM FIPS 140-2 Level 3) were operating properly throughout the ingestion, processing, trajectory drift modeling, and AIS correlation cycles, with no unauthorized tampering or alterations.
+              I hereby certify that the electronic records contained in this dossier were produced by the automated computer surveillance system <strong>NahAquatic Maritime C2</strong> during the course of regular operational activity. The computer systems and cryptographic hardware security modules (HSM FIPS 140-2 Level 3) were operating properly throughout the ingestion, processing, trajectory drift modeling, and AIS correlation cycles, with no unauthorized tampering or alterations.
             </p>
             <div
               style={{
